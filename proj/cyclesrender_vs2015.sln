@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max 2017", "max2017\cyclesrender_2017.vcxproj", "{B375D688-FF33-4E8B-91DD-74BB24C18F3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max 2018", "max2018\cyclesrender_2018.vcxproj", "{3ADA5E22-CA75-4E58-ACAF-90F15FBE37CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max 2019", "max2019\cyclesrender_2019.vcxproj", "{224A61EB-8537-4271-BD85-4A27145F3837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B375D688-FF33-4E8B-91DD-74BB24C18F3B}.Release|x64.ActiveCfg = Release|x64
+		{B375D688-FF33-4E8B-91DD-74BB24C18F3B}.Release|x64.Build.0 = Release|x64
+		{3ADA5E22-CA75-4E58-ACAF-90F15FBE37CD}.Release|x64.ActiveCfg = Release|x64
+		{3ADA5E22-CA75-4E58-ACAF-90F15FBE37CD}.Release|x64.Build.0 = Release|x64
+		{224A61EB-8537-4271-BD85-4A27145F3837}.Release|x64.ActiveCfg = Release|x64
+		{224A61EB-8537-4271-BD85-4A27145F3837}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2D5CB3C-81A8-46C6-A4D6-2292205022A7}
+	EndGlobalSection
+EndGlobal

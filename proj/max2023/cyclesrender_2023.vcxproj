@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Hybrid|x64">
+      <Configuration>Hybrid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\cyclesrender_2023.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cache_baked_texmap.cpp" />
+    <ClCompile Include="..\..\src\cycles_image.cpp" />
+    <ClCompile Include="..\..\src\cycles_mikkt_mesh.cpp" />
+    <ClCompile Include="..\..\src\cycles_session.cpp" />
+    <ClCompile Include="..\..\src\extern_mikktspace.cpp" />
+    <ClCompile Include="..\..\src\max_classdesc_cam.cpp" />
+    <ClCompile Include="..\..\src\max_classdesc_gup.cpp" />
+    <ClCompile Include="..\..\src\max_classdesc_mod.cpp" />
+    <ClCompile Include="..\..\src\max_classdesc_mtl.cpp" />
+    <ClCompile Include="..\..\src\max_classdesc_re.cpp" />
+    <ClCompile Include="..\..\src\max_classdesc_tex.cpp" />
+    <ClCompile Include="..\..\src\max_mat_browser.cpp" />
+    <ClCompile Include="..\..\src\max_rend_framebuffer_reader.cpp" />
+    <ClCompile Include="..\..\src\max_rend_interactive_session.cpp" />
+    <ClCompile Include="..\..\src\max_rend_offline_session.cpp" />
+    <ClCompile Include="..\..\src\max_tex_baking_scontext.cpp" />
+    <ClCompile Include="..\..\src\plugin_camera_panoramic.cpp" />
+    <ClCompile Include="..\..\src\plugin_gup_maxscript.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_add.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_anisotropic.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_base.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_diffuse.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_emission.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_glass.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_glossy.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_hair.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_holdout.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_mix.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_principled_bsdf.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_refraction.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_shader.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_shader_graph.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_shader_graph_08.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_shader_graph_16.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_shader_graph_32.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_shader_graph_ops.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_sss.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_toon.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_translucent.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_transparent.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_velvet.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_vol_absorption.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_vol_add.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_vol_mix.cpp" />
+    <ClCompile Include="..\..\src\plugin_mat_vol_scatter.cpp" />
+    <ClCompile Include="..\..\src\plugin_mod_properties.cpp" />
+    <ClCompile Include="..\..\src\plugin_re_simple.cpp" />
+    <ClCompile Include="..\..\src\plugin_tex.cpp" />
+    <ClCompile Include="..\..\src\plugin_tex_bitmap_filter.cpp" />
+    <ClCompile Include="..\..\src\plugin_tex_environment.cpp" />
+    <ClCompile Include="..\..\src\plugin_tex_sky.cpp" />
+    <ClCompile Include="..\..\src\plugin_urender_cycles.cpp" />
+    <ClCompile Include="..\..\src\rend_logger.cpp" />
+    <ClCompile Include="..\..\src\rend_logger_ext.cpp" />
+    <ClCompile Include="..\..\src\rend_offline_frame_man.cpp" />
+    <ClCompile Include="..\..\src\rend_offline_translation_man.cpp" />
+    <ClCompile Include="..\..\src\rend_params.cpp" />
+    <ClCompile Include="..\..\src\rend_shader_desc.cpp" />
+    <ClCompile Include="..\..\src\rend_shader_graph_converter.cpp" />
+    <ClCompile Include="..\..\src\rend_shader_manager.cpp" />
+    <ClCompile Include="..\..\src\rend_texture_baker.cpp" />
+    <ClCompile Include="..\..\src\rend_update_timer.cpp" />
+    <ClCompile Include="..\..\src\trans_camera.cpp" />
+    <ClCompile Include="..\..\src\trans_environment.cpp" />
+    <ClCompile Include="..\..\src\trans_geom_list.cpp" />
+    <ClCompile Include="..\..\src\trans_geom_node.cpp" />
+    <ClCompile Include="..\..\src\trans_light_list.cpp" />
+    <ClCompile Include="..\..\src\trans_light_node.cpp" />
+    <ClCompile Include="..\..\src\trans_mtl_list.cpp" />
+    <ClCompile Include="..\..\src\trans_mtl_node.cpp" />
+    <ClCompile Include="..\..\src\trans_output.cpp" />
+    <ClCompile Include="..\..\src\trans_scene.cpp" />
+    <ClCompile Include="..\..\src\trans_texmap_list.cpp" />
+    <ClCompile Include="..\..\src\trans_texmap_single.cpp" />
+    <ClCompile Include="..\..\src\ui_maxscript.cpp" />
+    <ClCompile Include="..\..\src\ui_paramdialog.cpp" />
+    <ClCompile Include="..\..\src\util_color_assign.cpp" />
+    <ClCompile Include="..\..\src\util_color_temp.cpp" />
+    <ClCompile Include="..\..\src\util_cycles_device.cpp" />
+    <ClCompile Include="..\..\src\util_cycles_device_dump.cpp" />
+    <ClCompile Include="..\..\src\util_cycles_film.cpp" />
+    <ClCompile Include="..\..\src\util_cycles_integrator.cpp" />
+    <ClCompile Include="..\..\src\util_cycles_params.cpp" />
+    <ClCompile Include="..\..\src\util_cycles_status.cpp" />
+    <ClCompile Include="..\..\src\util_debug.cpp" />
+    <ClCompile Include="..\..\src\util_half.cpp" />
+    <ClCompile Include="..\..\src\util_matrix_max.cpp" />
+    <ClCompile Include="..\..\src\util_multi_shader_max.cpp" />
+    <ClCompile Include="..\..\src\util_pass.cpp" />
+    <ClCompile Include="..\..\src\util_pblock_dump.cpp" />
+    <ClCompile Include="..\..\src\util_resolution.cpp" />
+    <ClCompile Include="..\..\src\util_simple_types.cpp" />
+    <ClCompile Include="..\..\src\util_sphere_mesh.cpp" />
+    <ClCompile Include="..\..\src\util_stereo.cpp" />
+    <ClCompile Include="..\..\src\util_translate_camera.cpp" />
+    <ClCompile Include="..\..\src\util_translate_environment.cpp" />
+    <ClCompile Include="..\..\src\util_translate_geometry.cpp" />
+    <ClCompile Include="..\..\src\util_translate_light.cpp" />
+    <ClCompile Include="..\..\src\util_windows.cpp" />
+    <ClCompile Include="..\..\src\win_dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\cyclesrender.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\win_resource.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Max 2023</ProjectName>
+    <ProjectGuid>{B375D688-FF33-4E8B-91DD-74BB24C18F3B}</ProjectGuid>
+    <RootNamespace>cjrender</RootNamespace>
+    <MaxSDK>C:\Dev\CyclesMax\maxsdk\2023</MaxSDK>
+    <MyDepsRoot>C:\Dev\CyclesMax\plugin\dep_build\v142r\</MyDepsRoot>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(MaxSDK)\ProjectSettings\PropertySheets\3dsmax.general.project.settings.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(MaxSDK)\ProjectSettings\PropertySheets\3dsmax.cpp.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir>$(SolutionDir)\build\</OutDir>
+    <TargetName>cyclesrender_2023</TargetName>
+    <TargetExt>.dlr</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(ProjectDir)\build\</IntDir>
+    <IncludePath>$(MyDepsRoot)\include_cycles;$(MyDepsRoot)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MyDepsRoot)\lib_cycles;$(MyDepsRoot)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Hybrid|x64'">
+    <IntDir>$(ProjectDir)\build\</IntDir>
+    <IncludePath>$(MyDepsRoot)\include_cycles;$(MyDepsRoot)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MyDepsRoot)\lib_cycles;$(MyDepsRoot)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(ProjectDir)\build\</IntDir>
+    <IncludePath>$(MyDepsRoot)\include_cycles;$(MyDepsRoot)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MyDepsRoot)\lib_cycles;$(MyDepsRoot)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>maxincl.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Userenv.lib;opengl32.lib;comctl32.lib;bmm.lib;core.lib;geom.lib;gup.lib;maxutil.lib;mesh.lib;gfx.lib;paramblk2.lib;GraphicsDriver.lib;GraphicsUtility.lib;MaxGraphicsObjects.lib;RenderingAPI.lib;Maxscrpt.lib;DefaultRenderItems.lib;cycles_bvh.lib;cycles_device.lib;cycles_graph.lib;cycles_kernel.lib;cycles_render.lib;cycles_subd.lib;cycles_util.lib;extern_clew.lib;extern_cuew.lib;extern_numaapi.lib;extern_sky.lib;libglew32.lib;jpeg-static.lib;tiff.lib;zlibstatic.lib;OpenImageIO.lib;Half-2_5.lib;Iex-2_5.lib;IlmImf-2_5.lib;IlmThread-2_5.lib;Imath-2_5.lib;glfw3.lib;shader_editor.lib;imgui.lib;libboost_filesystem-vc142-mt-x64-1_80.lib;libboost_regex-vc142-mt-x64-1_80.lib;libboost_system-vc142-mt-x64-1_80.lib;libboost_thread-vc142-mt-x64-1_80.lib;tbb.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(MaxSdkLib);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\cyclesrender_2023.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Hybrid|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4324</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4324</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;PLUGIN_SDK_VERSION=2023;BOOST_ALL_NO_LIB;BOOST_USE_WINDOWS_H;CCL_NAMESPACE_BEGIN=namespace ccl {;CCL_NAMESPACE_END=};CYCLES_STD_UNORDERED_MAP;NOMINMAX;OIIO_STATIC_DEFINE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4324</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

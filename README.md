@@ -24,7 +24,7 @@ Before building, you will need to modify a couple variables in the `.vcxproj` fi
 
 The provided visual studio projects should be able to build with only the two modifications listed above if you have your dependencies configured and arranged correctly.
 
-First, to configure and build your dependencies I recommend using the tool in the (cyclesformax-dependencies)[https://github.com/jlwitthuhn/cyclesformax-dependencies] repo. After building, copy the provided `collect_plugin_deps.bat` batch file into the newly-created directory corresponding to your visual studio version such as `cyclesformax-dependencies/v142r` and run it to copy all required libraries and headers into a single `_collected` directory with the following layout.
+First, to configure and build your dependencies I recommend using the tool in the [cyclesformax-dependencies](https://github.com/jlwitthuhn/cyclesformax-dependencies) repo. After building, copy the provided `collect_plugin_deps.bat` batch file into the newly-created directory corresponding to your visual studio version such as `cyclesformax-dependencies/v142r` and run it to copy all required libraries and headers into a single `_collected` directory with the following layout.
 
 ```
 ├── include
@@ -58,7 +58,7 @@ First, to configure and build your dependencies I recommend using the tool in th
     └── zlibstatic.lib
 ```
 
-Now you will need to build Cycles itself. The code itself and build instructions can be found in the (cyclesformax-cycles)[https://github.com/jlwitthuhn/cyclesformax-cycles] repo. Inside that `_collected` directory create two new directories to hold the cycles-specific headers and libraries. Name these `include_cycles` and `lib_cycles`. Pull the headers from the cycles source and the .lib files from the Cycles build directory and lay them out like this:
+Now you will need to build Cycles itself. The code itself and build instructions can be found in the [cyclesformax-cycles](https://github.com/jlwitthuhn/cyclesformax-cycles) repo. Inside that `_collected` directory create two new directories to hold the cycles-specific headers and libraries. Name these `include_cycles` and `lib_cycles`. Pull the headers from the cycles source and the .lib files from the Cycles build directory and lay them out like this:
 
 ```
 ├── include_cycles
